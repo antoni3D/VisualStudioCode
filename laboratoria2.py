@@ -46,3 +46,7 @@ match choice:
   case 4:
     print(x/y)
 
+print('Zadanie 8')
+x = int(input('Podaj x '))
+print((x > 3)&(x < 13))
+print((x != 5)|(x < 0))
